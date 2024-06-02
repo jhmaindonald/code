@@ -6,6 +6,9 @@ book:
   title: "R Code for 'A Practical Guide . . .'"
   author: "John Maindonald"
   date: "2024-06-02"
+  search: true
+  repo-url: https://github.com/jhmaindonald/code/
+  downloads: [pdf, docx]
   chapters:
     - index.qmd
     - ch1.qmd
@@ -31,6 +34,10 @@ format:
     number-depth: 1
     documentclass: scrreprt
     toc: true
+  docx: 
+    number-depth: 1
+    toc: true
+    
     
 
 
